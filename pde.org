@@ -1,0 +1,12 @@
+* incompressible
+#+begin_export latex
+\begin{equation}
+  \label{equation:NS-mass}
+  \nabla\cdot\mathbf{v} = 0,
+\end{equation}
+\begin{equation}
+  \label{equation:NS-Momentum}
+  \frac{\partial \mathbf{v}}{\partial t} + (\mathbf{v} \cdot \nabla)
+  \mathbf{v} = -\frac{\nabla p}{\rho} + \nu \nabla^2 \mathbf{v},
+\end{equation}
+#+end_export
